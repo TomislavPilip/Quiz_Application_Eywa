@@ -1,0 +1,38 @@
+.completed-category {
+  width: 500px;
+  height: 325px;
+  color: white;
+  margin: 20px;
+  font-size: 22px;
+  position: relative;
+}
+
+.completed-category-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.completed-category-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.completed-category-image h5 {
+  position: absolute;
+  width: 100%;
+  bottom: 0%;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 5px;
+  margin: 0;
+}
+.completed-category-image h5 span {
+  font-size: 25px;
+  color: red;
+  text-shadow: 0 0 3px black;
+}

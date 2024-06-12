@@ -1,0 +1,77 @@
+.categories-main-container {
+  padding: 0;
+  margin: 0;
+  background: url("https://images.ctfassets.net/lbwaqbajhugq/3Fgk8dqksjekAiHQAcisUc/229f444a0ab681261aae900e36b6868c/Quiz-Hero-Banner.jpg?w=1920&h=944&fl=progressive&q=75&fm=jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.categories-container {
+  padding: 20px;
+}
+
+.categories-container h3 {
+  color: white;
+  text-align: center;
+  font-weight: 900;
+}
+
+.categories {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.category-card {
+  width: 275px;
+  height: 225px;
+  box-shadow: 0 0 5px white;
+  color: white;
+  margin: 20px;
+  font-size: 18px;
+  background-color: rgb(6, 6, 72);
+  cursor: pointer;
+  text-shadow: 0 0 3px;
+  transition: all 1s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+.category-card.disabled {
+  cursor: not-allowed;
+  opacity: 0.4;
+  pointer-events: none;
+}
+
+.category-card:hover {
+  transform: translateY(10px);
+}
+.category-card:hover .category-card-image h5 {
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.category-card-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.category-card-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.category-card-image h5 {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 5px;
+  margin: 0;
+  transition: all 1s ease-in-out;
+}

@@ -1,0 +1,33 @@
+.quiz-answers ul {
+  padding: 15px;
+  margin: 0;
+}
+.quiz-answers ul li {
+  list-style: none;
+  margin: 7.5px;
+}
+.selected:focus-visible {
+  background-color: orange;
+}
+.correct {
+  background-color: green !important;
+}
+.wrong {
+  background-color: red !important;
+}
+.quiz-answers ul li button {
+  width: 100%;
+  padding: 10px;
+  background-color: blue;
+  color: white;
+  font-weight: 600;
+  font-size: 18px;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.quiz-answers ul li button:hover {
+  background-color: rgb(31, 135, 255);
+}
